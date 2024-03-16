@@ -345,5 +345,5 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/admin/Cards.js') }}" defer></script>
+    <script src="{{ secure_asset('js/admin/Cards.js') }}" defer></script>
 @endpush

@@ -315,5 +315,5 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/admin/Players.js') }}" defer></script>
+    <script src="{{ secure_asset('js/admin/Players.js') }}" defer></script>
 @endpush

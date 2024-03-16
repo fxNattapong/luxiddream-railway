@@ -115,7 +115,7 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/game/Home.js') }}" defer></script>
+    <script src="{{ secure_asset('js/game/Home.js') }}" defer></script>
     <script>
         const RouteRoomCreate = "<?php echo Route('RoomCreate'); ?>";
         const RouteRoomJoin = "<?php echo Route('RoomJoin'); ?>";

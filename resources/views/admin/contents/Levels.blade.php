@@ -371,5 +371,5 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/admin/Levels.js') }}" defer></script>
+    <script src="{{ secure_asset('js/admin/Levels.js') }}" defer></script>
 @endpush

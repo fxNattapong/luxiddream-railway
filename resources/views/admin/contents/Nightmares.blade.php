@@ -284,5 +284,5 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/admin/Nightmares.js') }}" defer></script>
+    <script src="{{ secure_asset('js/admin/Nightmares.js') }}" defer></script>
 @endpush

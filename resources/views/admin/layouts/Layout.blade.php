@@ -43,6 +43,6 @@
             }
         </script>
         
-        <script src="{{ URL('js/admin/LayoutAdmin.js') }}" defer></script>
+        <script src="{{ secure_asset('js/admin/LayoutAdmin.js') }}" defer></script>
     </body>
 </html>

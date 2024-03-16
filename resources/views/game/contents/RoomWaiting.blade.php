@@ -119,7 +119,7 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/game/RoomWaiting.js') }}" defer></script>
+    <script src="{{ secure_asset('js/game/RoomWaiting.js') }}" defer></script>
     <script>
         const RouteHome = "<?php echo Route('Home'); ?>";
         const RouteRoomDelete = "<?php echo Route('RoomDelete'); ?>";

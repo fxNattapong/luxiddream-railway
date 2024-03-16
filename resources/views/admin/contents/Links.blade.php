@@ -246,5 +246,5 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/admin/Links.js') }}" defer></script>
+    <script src="{{ secure_asset('js/admin/Links.js') }}" defer></script>
 @endpush

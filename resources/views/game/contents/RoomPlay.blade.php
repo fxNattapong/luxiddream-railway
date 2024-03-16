@@ -995,7 +995,7 @@
 @endsection
 
 @push('script')
-    <script src="{{ URL('js/game/RoomPlay.js') }}" defer></script>
+    <script src="{{ secure_asset('js/game/RoomPlay.js') }}" defer></script>
     <script>
         var isCreator = "<?php echo Session::get('creator') ?>";
         var room_id = "<?php echo $room->room_id ?>";
