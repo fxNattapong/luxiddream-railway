@@ -1,0 +1,206 @@
+.banner {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url('../../../assets/images/stuff-01.png');
+  /* // background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  //   url('../../../assets/images/bg-01.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.story {
+  color: white;
+  /* overflow-y: auto;
+  overflow-x: hidden; */
+  /* max-height: calc(100dvh - 70px); */
+  /* h2,
+  h1,
+  p {
+    font-family: 'Days One', sans-serif;
+  } */
+}
+
+.header {
+  padding: 20px 50px;
+  font-size: 36px;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.topic {
+  padding-left: 50px;
+  font-size: 26px;
+}
+
+.paragraph {
+  padding: 30px 50px;
+  /* font-family: 'Days One', sans-serif; */
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+}
+
+.line {
+  margin: 16px 32px;
+}
+
+.rule-box {
+  background-color: rgba(165, 143, 191, 255);
+  /* // border: 1px solid red; */
+  border-radius: 10px;
+  margin: 30px 50px;
+}
+
+.rule-btn {
+  margin: 50px 50px;
+  padding: 10px 0;
+  font-size: 16px;
+  width: 50%;
+}
+
+.btn-style {
+  background-color: rgba(78, 66, 153, 255);
+  color: white;
+  border-radius: 30px;
+  padding: 10px 10px;
+}
+
+/* // images */
+* {
+  box-sizing: border-box;
+}
+body {
+  /* font-family: Verdana, sans-serif; */
+  margin: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  z-index: 1;
+}
+
+.sidenav {
+  z-index: 1000;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev,
+  .next,
+  .text {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 768px) {
+  .htp {
+    font-size: 20px;
+  }
+
+  .rule-btn {
+    width: 100%;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+    margin: 0;
+  }
+}

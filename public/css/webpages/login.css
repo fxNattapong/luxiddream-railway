@@ -1,0 +1,71 @@
+.background {
+  background-image: url(../../../assets/images/loginbackground.png);
+  width: 100%;
+  height: 100dvh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  z-index: -99;
+}
+
+.goHome a i {
+  color: #000;
+  font-size: 32px;
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+
+.goHome a i:hover {
+  color: #1b2e49;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  height: 100vh; /* ให้ container เต็มหน้าจอ */
+}
+
+.login {
+  text-align: center;
+  z-index: 1;
+  div,
+  a,
+  h1 {
+    font-family: 'Kanit', sans-serif;
+  }
+}
+
+.input {
+  padding-left: 30px;
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.googleButton {
+  width: 500px;
+  height: 40px;
+  border-radius: 40px;
+  background: #fff;
+  font-size: 18px;
+  margin-bottom: 35px;
+  background-color: #b00000;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.logButton {
+  font-family: 'Days One', sans-serif;
+  font-size: 24px;
+  width: 150px;
+  height: 60px;
+  border: none;
+  border-radius: 40px;
+  background: #edcefa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
