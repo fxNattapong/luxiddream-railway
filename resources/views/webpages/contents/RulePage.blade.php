@@ -3,7 +3,7 @@
 @extends('webpages.layouts.Layout')
 
 @section('Content')
-  <link href="{{ asset('css/webpages/rule-page.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('css/webpages/rule-page.css') }}" rel="stylesheet">
 
   <div class="banner">
       <div class="story p-8 max-md:p-4">

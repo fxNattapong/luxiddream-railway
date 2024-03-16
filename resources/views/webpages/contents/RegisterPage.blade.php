@@ -1,7 +1,7 @@
 @extends('webpages.layouts.Layout')
 
 @section('Content')
-  <link href="{{ asset('css/webpages/register.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('css/webpages/register.css') }}" rel="stylesheet">
 
   <div class="background">
     <div class="goHome">

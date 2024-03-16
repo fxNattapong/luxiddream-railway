@@ -1,7 +1,7 @@
 @extends('webpages.layouts.Layout')
 
 @section('Content')
-  <link href="{{ asset('css/webpages/accountpage.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('css/webpages/accountpage.css') }}" rel="stylesheet">
 
   <div class="banner">
     <div class="story">

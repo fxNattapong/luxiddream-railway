@@ -3,7 +3,7 @@
 @extends('webpages.layouts.Layout')
 
 @section('Content')
-  <link href="{{ asset('css/webpages/aboutpage.css') }}" rel="stylesheet">
+  <link href="{{ secure_asset('css/webpages/aboutpage.css') }}" rel="stylesheet">
 
   <div class="banner">
       <div class="story p-8 max-md:p-4 h-full flex justify-center items-center">
