@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link href="{{ secure_asset('css/app.css') }}" media="all" rel="stylesheet" type="text/css" />
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
 
         <title>Layout</title>
     </head>

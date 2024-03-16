@@ -1,4 +1,4 @@
-<link href="{{ asset('css/webpages/footer.css') }}" rel="stylesheet">
+<link href="{{ secure_asset('css/webpages/footer.css') }}" rel="stylesheet">
 
 <footer class="footer">
   <div class="py-4 mx-auto">

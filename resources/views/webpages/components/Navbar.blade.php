@@ -1,4 +1,4 @@
-<link href="{{ asset('css/webpages/navbar.css') }}" rel="stylesheet">
+<link href="{{ secure_asset('css/webpages/navbar.css') }}" rel="stylesheet">
 
 <div class="z-50 container-fruid sticky top-0" style="background-color: #6d5092">
     <div class="navbar">
