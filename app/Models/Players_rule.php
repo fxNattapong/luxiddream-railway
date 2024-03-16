@@ -2,9 +2,10 @@
 
 namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Players_rule extends Model
+class Players_Rule extends Model
 {
-    protected $table = 'Players_rule';
+    protected $table = 'Players_Rule';
 }
