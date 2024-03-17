@@ -29,10 +29,11 @@ class AdminController extends Controller
     public function FetchAccountData(Request $request) {
         $username = ($request->has('username')) ? trim($request->input('username')) : null;
 
-        $player = Players::leftJoin('players_stats', 'players.player_id', '=', 'players_stats.player_id')
-                            ->where('players.username', $username)
-                            ->select('players.*', 'players_stats.played_all as played_all', 'players_stats.played_last as played_last')
-                            ->first();
+        // $player = Players::leftJoin('players_stats', 'players.player_id', '=', 'players_stats.player_id')
+        //                     ->where('players.username', $username)
+        //                     ->select('players.*', 'players_stats.played_all as played_all', 'players_stats.played_last as played_last')
+        //                     ->first();
+        $player = Players::where('username', $username)->first();
         
         return response()->json(['player' => $player], 200);
     }
